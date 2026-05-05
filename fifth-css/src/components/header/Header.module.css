@@ -1,0 +1,22 @@
+.header{
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.btn{
+    background-color: rgb(226, 47, 115);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 3px 3px 3px white;
+    transition: all ease-in-out 1s;
+}
+.btn:hover{
+    box-shadow: -3px -3px 3px white;
+}
