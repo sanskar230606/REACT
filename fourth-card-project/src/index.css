@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+}
+.parent{
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+  padding: 40px 53px;
+  display: flex;
+  gap: 53px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 380px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #111;
+  padding: 20px;
+}
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .top img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid 1px #dadada;
+  object-fit: contain;
+  padding: 2px;
+}
+.card .top button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border: solid 1px #dadada;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.card .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #dadada;
+  padding-top: 15px;
+}
+.card .bottom div h3{
+  font-weight: 100;
+  letter-spacing: 0.15rem;
+}
+.card .center{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-transform:uppercase;
+  align-self: start;
+}
+.card .center h3{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.card .center h3 span{
+  font-weight: 100;
+  font-size: 0.7rem;
+  opacity: 0.4;
+}
+.card .center h2{
+  font-weight: 100;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.15rem;
+}
+
+.card .center div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.card .center div h4{
+  font-weight: 100;
+  background-color: #dadada;
+  padding: 4px 6px;
+  border-radius: 5px;
+  font-size: .8rem;
+}
+.card .bottom button{
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: white;
+  background-color: #111;
+  transition: all ease-in-out 1s;
+  font-size: 0.8rem;
+}
+.card .bottom button:hover{
+  scale: 1.05;
+  background-color: #fff;
+  color: #111;
+  border: 1px solid black;
+}
+.card .bottom button:active{
+  scale: 0.95;
+  color: white;
+  background-color: #111;
+}
