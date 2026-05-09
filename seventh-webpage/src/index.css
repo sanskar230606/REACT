@@ -1,0 +1,4 @@
+@import "tailwindcss";
+#right::-webkit-scrollbar{
+    width: 0;
+}
