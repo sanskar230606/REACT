@@ -2,7 +2,7 @@
 
 This repository contains React projects created while learning React.js and frontend development using Vite.
 
-The projects cover core React concepts such as components, props, state management, event handling, styling, hooks, Tailwind CSS, and form handling.
+The projects cover core React concepts such as components, props, state management, event handling, styling, hooks, Tailwind CSS, form handling, and building real-world mini applications like a Notes App.
 
 ## Topics Covered
 
@@ -32,6 +32,9 @@ Managing form inputs, controlled components, form submission, and event handling
 
 ### Event Handling
 Working with functions, user interactions, and browser events inside React components.
+
+### Notes App Project
+Building a simple Notes App to practice creating, deleting, and managing notes using React state and dynamic rendering.
 
 ## Technologies Used
 
