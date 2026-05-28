@@ -36,6 +36,15 @@ Working with functions, user interactions, and browser events inside React compo
 ### Notes App Project
 Building a simple Notes App to practice creating, deleting, and managing notes using React state and dynamic rendering.
 
+### Local Storage Project
+Learning how to store and retrieve data in the browser using `localStorage` for persistent data management in React applications.
+
+### API Calling with Axios
+Understanding how to fetch data from APIs using Axios and display dynamic content inside React applications.
+
+### useEffect Hook
+Learning how to use the `useEffect` hook for side effects such as API calls, updating data, and component lifecycle handling.
+
 ## Technologies Used
 
 - React.js
@@ -44,6 +53,7 @@ Building a simple Notes App to practice creating, deleting, and managing notes u
 - JSX
 - CSS
 - Tailwind CSS
+- Axios
 
 ## Running a Project
 
@@ -53,3 +63,4 @@ Move into any project folder:
 cd folder-name
 npm install
 npm run dev
+```
