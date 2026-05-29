@@ -45,6 +45,9 @@ Understanding how to fetch data from APIs using Axios and display dynamic conten
 ### useEffect Hook
 Learning how to use the `useEffect` hook for side effects such as API calls, updating data, and component lifecycle handling.
 
+### Gallery Project
+Building an interactive image gallery application with features like dynamic image rendering, navigation controls, responsive layouts, and image previews using React state and component-based architecture.
+
 ## Technologies Used
 
 - React.js
