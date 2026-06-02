@@ -48,6 +48,9 @@ Learning how to use the `useEffect` hook for side effects such as API calls, upd
 ### Gallery Project
 Building an interactive image gallery application with features like dynamic image rendering, navigation controls, responsive layouts, and image previews using React state and component-based architecture.
 
+### React Router DOM
+Learning client-side routing with React Router DOM, including basic routing, nested routing, and dynamic routing to create multi-page React applications without page reloads. Exploring route configuration using `Routes` and `Route`, rendering nested content with `Outlet`, accessing dynamic URL parameters with `useParams()`, and implementing programmatic navigation using `useNavigate()` to enhance user experience and application flow.
+
 ## Technologies Used
 
 - React.js
