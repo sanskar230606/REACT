@@ -54,17 +54,30 @@ Learning client-side routing with React Router DOM, including basic routing, nes
 ### Reverse Props Drilling
 In this concept you can observe that you can able to drill the data reversely from child to parent , which is usually reverse to the traditional way also known as `props drilling`.
 
+### Context API
+
+Learning how to manage and share state globally across components without passing props through multiple levels of the component tree. Understanding the use of `createContext`, `Provider`, and `useContext` to simplify state management, reduce prop drilling, and improve application scalability.
+
 ## Technologies Used
 
-- React.js
-- Vite
-- JavaScript
-- JSX
-- CSS
-- Tailwind CSS
-- Axios
-- React-Router-Dom
+* React.js
+* Vite
+* JavaScript
+* JSX
+* CSS
+* Tailwind CSS
+* Axios
+* React Router DOM
+* Context API
+* Local Storage
 
+## Final Goodbye Note
+
+This repository marks the completion of my React learning journey. From understanding components and props to working with hooks, routing, API integration, Context API, and building real-world projects, every folder in this repository represents a step forward in my frontend development experience.
+
+Thank you for checking out this repository and following along with my learning process. This may be the final commit for this React course collection, but it is only the beginning of building larger and more impactful projects.
+
+Happy Coding! 🚀
 
 ## Running a Project
 
