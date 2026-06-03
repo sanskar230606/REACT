@@ -51,6 +51,9 @@ Building an interactive image gallery application with features like dynamic ima
 ### React Router DOM
 Learning client-side routing with React Router DOM, including basic routing, nested routing, and dynamic routing to create multi-page React applications without page reloads. Exploring route configuration using `Routes` and `Route`, rendering nested content with `Outlet`, accessing dynamic URL parameters with `useParams()`, and implementing programmatic navigation using `useNavigate()` to enhance user experience and application flow.
 
+### Reverse Props Drilling
+In this concept you can observe that you can able to drill the data reversely from child to parent , which is usually reverse to the traditional way also known as `props drilling`.
+
 ## Technologies Used
 
 - React.js
@@ -60,6 +63,8 @@ Learning client-side routing with React Router DOM, including basic routing, nes
 - CSS
 - Tailwind CSS
 - Axios
+- React-Router-Dom
+
 
 ## Running a Project
 
